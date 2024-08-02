@@ -141,11 +141,13 @@ select:hover,
 
 .skills-block {
     flex-direction: column-reverse;
+    display: flex;
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
 .skills {
     gap: 20px;
+    display: flex;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -219,9 +221,13 @@ footer {
     font-size: 14px;
     color: #2965f1;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-link:hover {
-    text-align: center;
+    
+    
     /* 📍 Стили для ссылки при наведении курсора */
 }
