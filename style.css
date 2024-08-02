@@ -75,6 +75,9 @@ header span {
 .about-section {
     background-color: #fff;
     padding: 100px 0;
+    width: 1440px;
+
+
 }
 
 .about-section .wrapper {
@@ -220,8 +223,9 @@ footer {
     padding: 26px 0;
     display: flex;
     justify-content: center;
-    align-items: center ;
-    align-self: start;
+    text-align: center;
+  
+
     /* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
