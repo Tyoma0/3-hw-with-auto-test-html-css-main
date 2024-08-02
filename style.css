@@ -8,7 +8,7 @@
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
-    width: 1440px ;
+    max-width: 1140px ;
     display: flex;
     
     
@@ -53,6 +53,7 @@ header span {
 
 .text-wrapper {
     justify-content: space-between;
+    max-width: 425px;
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -79,6 +80,7 @@ header span {
 .about-section .wrapper {
     display: flex;
     justify-content: space-evenly;
+    gap: 60px;
     
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
@@ -125,6 +127,8 @@ select:hover,
 .books-list {
     display: flex;
     justify-content: space-between;
+     min-width: 720px;
+     
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
@@ -136,10 +140,12 @@ select:hover,
 }
 
 .skills-block {
+    flex-direction: column-reverse;
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
 .skills {
+    gap: 20px;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -182,7 +188,7 @@ form {
 }
 
 .btn:hover {
-    
+
     /* 📍 Стили для кнопки при наведении курсора */
 }
 
@@ -216,5 +222,6 @@ footer {
 }
 
 .footer-link:hover {
+    text-align: center;
     /* 📍 Стили для ссылки при наведении курсора */
 }
