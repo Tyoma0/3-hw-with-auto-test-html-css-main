@@ -128,6 +128,8 @@ select:hover,
     display: flex;
     justify-content: space-between;
      min-width: 720px;
+     gap: 16px;
+     align-self: normal;
      
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
@@ -218,7 +220,8 @@ footer {
     padding: 26px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
+    align-self: start;
     /* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
